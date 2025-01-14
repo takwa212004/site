@@ -1,0 +1,259 @@
+.back{
+    background: url('flower.jpg') no-repeat center center/cover; 
+    padding: 50px 20px;
+    text-align: left;
+    height: 400px; 
+    color: white;
+}
+header.headerr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(208, 101, 205);
+    padding: 20px 50px;
+    color: rgb(0, 0, 0);
+}
+
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: rgb(9, 2, 2);
+    text-decoration: none;
+    font-size: 1em;
+    transition: color 0.3s;
+    font-weight: bold;
+}
+.back button{
+    background-color: yellow;
+    font-weight: bold;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 12px;
+    margin-top: 20px;
+    margin-left: 50px;
+    transition: transform 0.3s ease; 
+}
+.back button:hover{
+    transform: scale(1.2);
+    background-color: rgb(226, 111, 230);
+}
+h1 {
+    margin-left: 50px;
+    font-size: 40PX;
+  } 
+h2 {
+    margin-left: 50px;
+    font-size: 50PX;
+  }
+  .profile-photo {
+    text-align: right; 
+    margin-top: 20px;
+}
+
+.profile-photo img {
+    width: 190px; 
+    border-radius: 10%; 
+}
+.transparent {
+    opacity: 0.6; 
+}
+.aa {
+    display: flex;
+    justify-content: left;
+    gap: 1rem; 
+    margin-top: 20px; 
+    margin-left: 50px;
+}
+
+.aa a i {
+    color: #ffffff;
+    transition: transform 0.3s, color 0.3s;
+}
+
+.aa a i:hover {
+    transform: scale(1.2);
+    color: #ffdd57;
+}
+
+
+
+
+
+.projects-section {
+    padding: 50px 20px;
+    background: linear-gradient(to bottom, #d17ac5, #e49bd8);
+    text-align: center;
+}
+
+.projects-section h1 {
+    font-size: 40px;
+    color: black;
+}
+
+.project {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.project-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 250px;
+    text-align: center;
+    padding: 15px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-card img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.project-card h2 {
+    font-size: 18px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.project-card p {
+    font-size: 14px;
+    color: gray;
+    margin: 5px 0;
+}
+
+.project-card button {
+    background-color: #e49bd8;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.project-card button:hover {
+    background-color: #d17ac5;
+    transform: scale(1.2);
+    
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+
+
+.serv {
+    padding: 50px 20px;
+    background: linear-gradient(to bottom, #d17ac5, #e49bd8);
+    text-align: center;
+}
+
+.serv h1 {
+    font-size: 40px;
+    color: black;
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 50px 0;
+    gap: 20px;
+}
+.service {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 200px;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service .icon {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.service h2 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.service p {
+    font-size: 0.9rem;
+    margin: 10px 0;
+}
+.service button { 
+    background-color: #e49bd8;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+.service button:hover {
+    background-color: #d17ac5;
+    transform: scale(1.2);
+    
+}
+.service:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+
+.contact{
+    padding: 50px 20px;
+    background: linear-gradient(to bottom, #d17ac5, #e49bd8);
+    text-align: center;
+}
+.contact-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.1);
+    font-size: 1rem;
+}
+
+.email-nav, .tel-nav {
+    font-weight: bold;
+    color: #000;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.1);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.9rem;
+}
+
+.footer-left {
+    color: #000;
+}
+
